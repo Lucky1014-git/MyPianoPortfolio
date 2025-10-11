@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repertoire - Piano Journey Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-music"></i>
+                <span>Piano Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+                <li><a href="journey.html" class="nav-link">Journey</a></li>
+                <li><a href="repertoire.html" class="nav-link active">Repertoire</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Repertoire Section -->
+    <section id="repertoire" class="repertoire" style="padding-top: 120px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Musical Repertoire</h2>
+                <p class="section-subtitle">Pieces that define my musical journey</p>
+            </div>
+            <div class="repertoire-categories">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="classical">Classical</button>
+                    <button class="tab-btn" data-category="romantic">Romantic</button>
+                    <button class="tab-btn" data-category="modern">Modern</button>
+                    <button class="tab-btn" data-category="favorites">Favorites</button>
+                </div>
+                <div class="repertoire-content">
+                    <div class="repertoire-list active" data-category="classical">
+                        <div class="piece-item">
+                            <h4>Bach - Invention No. 1 in C Major</h4>
+                            <p class="composer">Johann Sebastian Bach</p>
+                            <p class="difficulty">Grade 4</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Mozart - Sonata K. 331 (1st Movement)</h4>
+                            <p class="composer">Wolfgang Amadeus Mozart</p>
+                            <p class="difficulty">Grade 7</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Bach - Prelude and Fugue in C Major</h4>
+                            <p class="composer">Johann Sebastian Bach</p>
+                            <p class="difficulty">Grade 8</p>
+                        </div>
+                    </div>
+                    <div class="repertoire-list" data-category="romantic">
+                        <div class="piece-item">
+                            <h4>Chopin - Nocturne in E-flat Major</h4>
+                            <p class="composer">Frédéric Chopin</p>
+                            <p class="difficulty">Grade 6</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Schumann - Träumerei</h4>
+                            <p class="composer">Robert Schumann</p>
+                            <p class="difficulty">Grade 5</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Beethoven - Für Elise</h4>
+                            <p class="composer">Ludwig van Beethoven</p>
+                            <p class="difficulty">Grade 4</p>
+                        </div>
+                    </div>
+                    <div class="repertoire-list" data-category="modern">
+                        <div class="piece-item">
+                            <h4>Einaudi - Nuvole Bianche</h4>
+                            <p class="composer">Ludovico Einaudi</p>
+                            <p class="difficulty">Intermediate</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Yann Tiersen - Comptine d'un autre été</h4>
+                            <p class="composer">Yann Tiersen</p>
+                            <p class="difficulty">Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="repertoire-list" data-category="favorites">
+                        <div class="piece-item">
+                            <h4>Chopin - Nocturne in E-flat Major</h4>
+                            <p class="composer">Frédéric Chopin</p>
+                            <p class="difficulty">Grade 6</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Bach - Prelude and Fugue in C Major</h4>
+                            <p class="composer">Johann Sebastian Bach</p>
+                            <p class="difficulty">Grade 8</p>
+                        </div>
+                        <div class="piece-item">
+                            <h4>Einaudi - Nuvole Bianche</h4>
+                            <p class="composer">Ludovico Einaudi</p>
+                            <p class="difficulty">Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-music"></i>
+                    <span>Piano Portfolio</span>
+                </div>
+                <p>&copy; 2024 Piano Journey Portfolio. Made with ♪ and passion for music.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
