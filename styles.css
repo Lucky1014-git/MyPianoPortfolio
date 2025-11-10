@@ -958,3 +958,416 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
 }
+
+/* Tutoring Page Styles */
+.tutoring {
+    padding: 6rem 0;
+    background: var(--background-light);
+}
+
+.tutoring-intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.intro-content h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.intro-image {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-image .image-placeholder {
+    width: 250px;
+    height: 250px;
+    background: var(--gradient-purple);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    box-shadow: var(--shadow-medium);
+}
+
+.intro-image .image-placeholder i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.teaching-philosophy {
+    margin-bottom: 4rem;
+}
+
+.teaching-philosophy h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.philosophy-item {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.philosophy-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.philosophy-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-pink);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.philosophy-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.philosophy-item p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.lesson-packages {
+    margin-bottom: 4rem;
+}
+
+.lesson-packages h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.package-card {
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+    overflow: hidden;
+    transition: var(--transition);
+    position: relative;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.package-card.featured {
+    border: 2px solid var(--accent-color);
+    transform: scale(1.05);
+}
+
+.package-badge {
+    background: var(--gradient-pink);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.package-header {
+    padding: 2rem 2rem 1rem;
+    text-align: center;
+}
+
+.package-card.featured .package-header {
+    padding-top: 3rem;
+}
+
+.package-header h4 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.package-price {
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.duration {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.package-features {
+    padding: 0 2rem;
+}
+
+.package-features ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.package-features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.package-features i {
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.package-description {
+    padding: 0 2rem 2rem;
+}
+
+.package-description p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.curriculum {
+    margin-bottom: 4rem;
+}
+
+.curriculum h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.curriculum-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.curriculum-category {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+}
+
+.curriculum-category h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.curriculum-category h4 i {
+    color: var(--accent-color);
+}
+
+.curriculum-category ul {
+    list-style: none;
+}
+
+.curriculum-category li {
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.curriculum-category li::before {
+    content: '♪';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+}
+
+.testimonials {
+    margin-bottom: 4rem;
+}
+
+.testimonials h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+    border-left: 4px solid var(--accent-color);
+}
+
+.testimonial-content p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+
+.lesson-contact {
+    background: var(--background-dark);
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.lesson-contact h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.lesson-contact > p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+}
+
+.contact-method i {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    min-width: 30px;
+}
+
+.contact-method h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+}
+
+.contact-method p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.trial-lesson {
+    margin-top: 2rem;
+}
+
+/* Responsive Design for Tutoring Page */
+@media (max-width: 768px) {
+    .tutoring-intro {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .intro-image .image-placeholder {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .philosophy-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .package-card.featured {
+        transform: none;
+    }
+    
+    .curriculum-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-methods {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-method {
+        flex-direction: column;
+        text-align: center;
+    }
+}
